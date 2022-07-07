@@ -217,6 +217,48 @@ hr{
     height: 20.45px;
 }
 
+article{
+    margin-top: 70px;
+    width: 340px;
+}
+
 .articles{
     margin-top: 55px;
 }
+
+.articles_list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.arcticle_pic{
+    width: 340px;
+    height: 299px;
+}
+
+.article_title_container{
+    background: #A5D157;
+    height: 72px;
+    display: flex;
+    flex-flow: column;
+}
+
+.article_inf_container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 12px 5px 0 5px;
+}
+
+.white-big{
+    color: white;
+    font-size: 22px;
+}
+
+.name{
+    padding-top: 7px;
+    align-self: center;
+}
+
+
