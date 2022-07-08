@@ -261,4 +261,69 @@ article{
     align-self: center;
 }
 
+.contacts{
+    height: 383px;
+    background: #E3EECE;
+    margin-top: 20px;
+}
 
+.contacts_flex{
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.contact_title_container{
+    border-right: 1px solid black;
+    align-self: center;
+    height: 283px;
+}
+
+.stay{
+    font-size: 36px;
+    padding-bottom: 27px;
+    padding-top: 93px;
+}
+
+.stay,.description{
+    padding-right: 10px;
+}
+
+.forms{
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+.email_tel{
+    display: flex;
+    flex-flow: row;
+}
+
+.form_height{
+    height: 30px;
+    width: 250px;
+}
+
+.form_text{
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.or{
+    padding: 0 18px 0 18px;
+}
+
+.submit_application_{
+    width: 296px;
+    height: 56px;
+    background: #A5D157;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
