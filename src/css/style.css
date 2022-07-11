@@ -224,6 +224,7 @@ article{
 
 .articles{
     margin-top: 55px;
+    padding-bottom: 90px;
 }
 
 .articles_list{
@@ -326,4 +327,54 @@ article{
     color: white;
     text-align: center;
     border-radius: 50px;
+}
+
+footer{
+    height: 200px;
+    background: #A5D157;
+}
+
+.footer_flex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_text{
+    font-size: 14px;
+    color: white;
+    padding-top: 12px;
+}
+
+.footer_nav, .footer_catalog, .footer_articles, .footer_mail{
+    display: flex;
+    flex-flow: column;
+}
+
+.href_text{
+    font-size: 24px;
+    color: white;
+}
+
+.lol{
+    padding-top: 10px;
+}
+
+.footer_title{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer_category, .footer_articlesS{
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+}
+
+.footer_mail{
+    justify-self: self-end;
 }
