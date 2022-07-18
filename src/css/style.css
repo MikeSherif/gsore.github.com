@@ -148,10 +148,18 @@ hr{
 
 .buy_immediately{
     background: #A5D157;
-    height: 31px;
-    width: 201px;
-    border-radius: 40px;
+    height: 45px;
+    width: 100%;
+    border-radius: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto auto;
+}
+
+.cart-add{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -167,18 +175,58 @@ hr{
     flex-flow: column;
     padding: 0 15px 15px 15px;
 }
+.category_choosen_underline::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 7px;
+    background-color: #bebebe;
+}
+.category_choosen{
+    opacity: 1 !important;
+}
 
+.sub_cat{
+    padding-top: 10px !important;
+}
+
+.dropdown_porridge{
+    font-size: 18px;
+}
+
+.porridge{
+    width: fit-content;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.porridge:hover{
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.cart_point_scalable{
+    display: flex;
+    flex-flow: column;
+    transition: 0.5s;
+}
+.cart_point_scalable:hover {
+    transform: scale(1.05); /* Увеличиваем масштаб */
+    cursor: pointer;
+   }
 .item-pic{
     align-self: center;
 }
 
 .item-text{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .item-text1{
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 31px;
 }
 
@@ -189,14 +237,15 @@ hr{
 .sale-count{
     background: black;
     color: white;
-    width: 44.83px;
-    height: 18.4px;
+    width: 45px;
+    height: 22px;
     border-radius: 40px;
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
-    line-height: 18.4px;
+    line-height: 22px;
     font-weight: 500;
-    margin: 10px 0 0 10px;
+    margin: 0 0 0 10px;
+    position: absolute;
 }
 
 .item-pic{
@@ -242,6 +291,11 @@ hr{
     display: flex;
     justify-content: center;
     margin-top: 17px;
+    transition: 0.5s;
+}
+.buy_more1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .more{
@@ -436,6 +490,7 @@ footer{
 
 .boston_dynamic{
     position: absolute;
+    margin-left: 5px;
     font-size: 14px;
     font-weight: 400;
     color: #96A9C8;
@@ -452,12 +507,28 @@ footer{
     padding-left: 10px;
 }
 
+.pl-30{
+    padding-left: 30px;
+}
+
 .pt-5{
     padding-top: 5px;
 }
 
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-15{
+    padding-top: 15px;
+}
+
 .fs-24{
     font-size: 24px;
+}
+
+.fs-14{
+    font-size: 14px;
 }
 
 .fw-600{
