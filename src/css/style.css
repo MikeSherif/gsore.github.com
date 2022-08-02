@@ -525,8 +525,13 @@ article{
     font-size: 20px;
 }
 
-footer{
+.comp_footer{
     height: 200px;
+    background: #A5D157;
+}
+
+.mobile_footer{
+    height: 95px;
     background: #A5D157;
 }
 
@@ -549,6 +554,12 @@ footer{
     padding-top: 12px;
 }
 
+.footer_textM{
+    font-size: 7px;
+    color: white;
+    padding-top: 4px;
+}
+
 .footer_nav, .footer_catalog, .footer_articles, .footer_mail{
     display: flex;
     flex-flow: column;
@@ -559,8 +570,17 @@ footer{
     color: white;
 }
 
+.href_textM{
+    font-size: 10px;
+    color: white;
+}
+
 .lol{
     padding-top: 10px;
+}
+
+.lolM{
+    padding: 3px 0 3px 0;
 }
 
 .footer_title{
@@ -569,10 +589,22 @@ footer{
     color: white;
 }
 
+.footer_titleM{
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+
 .footer_category, .footer_articlesS{
     font-size: 20px;
     color: white;
     padding-top: 15px;
+}
+
+.footer_categoryM, .footer_articlesSM{
+    font-size: 7px;
+    color: white;
+    padding-top: 2px;
 }
 
 .footer_mail{
@@ -794,4 +826,15 @@ footer{
     .submit_application{
         padding-bottom: 30px;
     }
+}
+@media (min-width: 769px){
+    .mobile_footer{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .comp_footer{
+        display: none;
+    }
+
 }
