@@ -11,16 +11,19 @@
 }
 
 .comp_header{
+    position: fixed;
+    z-index: 200;
     height: 110px;
     width: 100%;
     background-color: #E0ECCB;
 }
 
 .mobile_header{
+    position: fixed;
+    z-index: 200;
     height: 62px;
     width: 100%;
     background-color: #E0ECCB;
-
 }
 
 .mob_burger{
@@ -70,6 +73,8 @@
 
 #panel{
     width: 100%;
+    position: absolute;
+    top: 110px;
 }
 
 .burger{
@@ -77,6 +82,11 @@
     display: flex;
     flex-flow: column;
     background: none;
+}
+
+.together{
+    display: flex;
+    flex-flow: row;
 }
 
 .invisible{
@@ -130,6 +140,13 @@
 .nav-cart{
     width: 69px;
     height: 59px;
+    align-self: center;
+}
+
+.nav-cart1{
+    width: 44px;
+    height: 28px;
+    padding-right: 15px;
     align-self: center;
 }
 
@@ -732,7 +749,52 @@ footer{
 }
 
 @media (max-width: 991px) {
+    .mobile_header{
+        position: unset;
+    }
+    #panel{
+        top: 0;
+    }
     .comp_header{
         display: none;
+    }
+    .contacts{
+        height: auto;
+    }
+    .contacts_flex{
+        flex-flow: column;
+    }
+    .contact_title_container{
+        border-right: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid black;
+        height: auto;
+    }
+    .forms{
+        padding-top: 17px;
+        margin-left: 0;
+    }
+    .stay{
+        padding: 15px 0 10px 0;
+    }
+    .description{
+        padding-bottom:10px;
+        padding-right: 0;
+    }
+    .form_height{
+        width: 132px;
+        height: 25px;
+    }
+    .form_text{
+        font-size: 12px;
+    }
+    .submit_application_{
+        width: 145px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .submit_application{
+        padding-bottom: 30px;
     }
 }
