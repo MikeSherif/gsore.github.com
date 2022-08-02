@@ -749,11 +749,8 @@ footer{
 }
 
 @media (max-width: 991px) {
-    .mobile_header{
+    .mobile_header,#panel{
         position: unset;
-    }
-    #panel{
-        top: 0;
     }
     .comp_header{
         display: none;
