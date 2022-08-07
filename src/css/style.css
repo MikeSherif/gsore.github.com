@@ -781,8 +781,12 @@ article{
 }
 
 @media (max-width: 991px) {
-    .mobile_header,#panel{
+    #panel{
         position: unset;
+    }
+    .mobile_header{
+        position: sticky;
+        top: 0;
     }
     .comp_header{
         display: none;
