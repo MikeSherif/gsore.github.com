@@ -774,6 +774,57 @@ article{
     padding: 20px 0 50px 0;
 }
 
+.distribute{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.distribute_flex{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.distribute_img{
+    height: 508px;
+    width: 725px;
+}
+
+.distribute_title_container{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.dist_button{
+    width: 304.92px;
+    height: 52.22px;
+    background: #A5D157;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 15%;
+}
+
+.dist_title{
+    display: flex;
+    justify-self: flex-start;
+    font-weight: 400;
+    font-size: 48px;
+}
+.name_tel{
+    display: flex;
+    flex-flow: row;
+}
+
+.svan{
+    width: 44px;
+}
+
+
+
 @media (min-width: 992px) {
     #menu, .mobile_header{
         display: none;
