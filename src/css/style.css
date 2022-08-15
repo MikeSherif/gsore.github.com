@@ -808,6 +808,15 @@ article{
     margin-top: 15%;
 }
 
+button{
+    transition: 0.5s ease;
+}
+
+button:hover{
+    outline: 4px solid white;
+    outline-offset: -10px;
+}
+
 .dist_title{
     display: flex;
     justify-self: flex-start;
