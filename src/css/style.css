@@ -893,6 +893,9 @@ button:hover{
         position: sticky;
         top: 0;
     }
+    .all_inf_mobile{
+        padding-bottom: 25px;
+    }
     .comp_header{
         display: none;
     }
