@@ -1006,18 +1006,28 @@ button:hover{
         height: 35px;
         font-size: 14px;
         margin: unset;
+
+    }
+    .left-block{
+        padding-top: 15px;
     }
     .important_inf{
         font-size: 12px;
+
     }
     .destination{
         width: 158px;
         height: 150px;
-
+        margin-top: 0;
 
     }
-    .caption{
+    .crisper{
         padding-bottom: 0;
     }
-
+    .caption,.empty_words{
+        padding-bottom: 0;
+    }
+    .squeeze{
+        height: 10px;
+    }
 }
