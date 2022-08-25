@@ -812,10 +812,10 @@ button{
     transition: 0.5s ease;
 }
 
-button:hover{
+/*button:hover{
     outline: 4px solid white;
     outline-offset: -10px;
-}
+}*/
 
 .dist_title{
     display: flex;
@@ -874,10 +874,186 @@ button:hover{
     height: 590px;
     margin-top: 35px;
 }
+
 .mobile_block{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+}
+
+.search_title{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.search_title_text{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.check-mark{
+    margin-left: 15px;
+}
+
+.search_title_small{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 24px;
+}
+
+.cell-block{
+    display: flex;
+    flex-flow: column;
+}
+
+.cell-list{
+    width: 65%;
+    padding-top: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: #D9D9D9;
+}
+
+.cell-number{
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.cell-list1{
+    padding-top: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.united_search_block{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.search_block{
+    width: 250px;
+}
+
+.kisel{
+    margin-left: 110px;
+}
+
+.search_items{
+    margin-top: 58px;
+}
+
+.search_item{
+    margin-bottom: 35px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 220px;
+    width: 1173px;
+}
+
+.petuch{
+    height: 35px;
+}
+
+.search_img{
+    width: 198.73px;
+    height: 220px;
+}
+
+.search_inf_container, .numbers, .numbers_column ,.compound{
+    display: flex;
+    flex-flow: column;
+}
+
+.search_inf_title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.search_inf_containerSmall, .numbers_row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.search_inf_containerSmall{
+    margin-top: 20px;
+}
+.numbers{
+    width: 400px;
+}
+
+.numbers_count{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.numbers_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.grams, .rubles{
+    display: flex;
+    flex-flow: row;
+}
+
+.grams, .rubles{
+    margin-top: 10px;
+}
+
+.grams_count,grams_text{
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.grams_text{
+    align-self: flex-end;
+    margin-left: 5px;
+}
+
+.rubles_count, .rubles_text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FF0000;
+}
+
+.rubles_text{
+    color: black;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.compound_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 10px;
+}
+
+.compound_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
 }
 @media (min-width: 992px) {
     #menu, .mobile_header, .all_inf_mobile{
